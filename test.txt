@@ -1,0 +1,3 @@
+https://trajector.auth.us-east-2.amazoncognito.com/oauth2/authorize?
+redirect_uri=http%3A%2F%2Flocalhost%3A3000&response_type=code&client_id=6gvcnokkrqaqgi74ve8hng4rfv
+&identity_provider=AzureAD&scope=email%20profile%20openid%20principal%2Fclient&state=ic7N3szWjfAa4lcTpeTJ4buo4S3H3bNM&code_challenge=g1ayxx2wio1aAgtfuL6SL5kqvRfxxbUEnDcUHwgZQzU&code_challenge_method=S256

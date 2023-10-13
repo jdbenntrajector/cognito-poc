@@ -1,0 +1,30 @@
+{
+  'version': '1',
+  'triggerSource': 'TokenGeneration_HostedAuth',
+  'region': 'us-east-2',
+  'userPoolId': 'us-east-2_6AWzN3GYE',
+  'userName': 'AzureAD_john.bennett@TrajectorServices.com',
+  'callerContext': {
+    'awsSdkVersion': 'aws-sdk-unknown-unknown',
+    'clientId': '6gvcnokkrqaqgi74ve8hng4rfv'
+  },
+  'request': {
+    'userAttributes': {
+      'sub': '3d4c3515-a8ef-4ab6-8c8d-ccb672baec2c',
+      'identities': '[{"userId":"john.bennett@TrajectorServices.com","providerName":"AzureAD","providerType":"SAML","issuer":"https://sts.windows.net/1d002f76-d7f6-43b6-86a5-4fb7293c2909/","primary":true,"dateCreated":1695775380350}]',
+      'cognito:user_status': 'EXTERNAL_PROVIDER',
+      'email_verified': 'false',
+      'email': 'john.bennett@trajectorservices.com'
+    },
+    'groupConfiguration': {
+      'groupsToOverride': [
+        'us-east-2_6AWzN3GYE_AzureAD'
+      ],
+      'iamRolesToOverride': [],
+      'preferredRole': None
+    }
+  },
+  'response': {
+    'claimsOverrideDetails': None
+  }
+}

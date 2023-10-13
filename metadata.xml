@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2024-10-02 17:16:07 UTC" cacheDuration="PT604800S" entityID="urn:amazon:cognito:sp:us-east-2_6AWzN3GYE">
+    <md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIICvTCCAaWgAwIBAgIJAJx5PovHmhl7MA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNVBAMME3VzLWVhc3QtMl82QVd6TjNHWUUwHhcNMjMwOTI5MTYyMTEzWhcNMzMwOTI5MDIzMzEzWjAeMRwwGgYDVQQDDBN1cy1lYXN0LTJfNkFXek4zR1lFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvh7GcMsLxNezjDXPk/NnauaqQ+npwtW55JPHzvd41R2iK9ZEZ2yyyf7iammMt7bxeqFAN+8lBcfgM958OL9BJrUjVYMRWTlgsxFiXVvENKo9e03xiH/Hxx72Qcx9jzgTEBYvfqa29q80oHcycWTmSjmMRw2zP9vfCmkcXcEx+VA8dOISG4S+3ZIsKkd6VG8Fv9pinBzCkEeO/eI+9KhtD+yOTPOB8PFURKGPJfXbJ2qH0DohefmaGuV1qYIclfYp2wRZJhWUQf23XpbvYa6GfdUkIxwWv0kR2cYnAFurp6bbIImoOozc7OXoGCRWQGxGEIw4+rNGoNJuKHEm/L9cqwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBm8mL1mLdqDmUjiF6C/8d2Rg2yg/hwH4EBjnxOlAnmoATZH3BFDXimx273ISvuF9L5LOy+7AABaFqRsar4Ig42FwNUbdzb9fFUIQty/RLRHeihFSrw36OoCV1pTao6ZVppR1BO7BKKsXLI29N3PXEaWOmSJ58Qonq/lIjdfCgu9X0jDnTGTcn6AGqQO0K1hfHuE/NT4x4057R87XklY5irhwZjVDVODhlGsJ/1U0PMlJLo42sPYdV2MzWlA9P5R+E3t8klCSmYT4uXkplsc+/aAhvsKhkPonuDWrMC4ep3b7NdKniZzS9ACT8sXmau7iOREIhueqiKf9VXzuzrCBMk</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIICvTCCAaWgAwIBAgIJAJx5PovHmhl7MA0GCSqGSIb3DQEBCwUAMB4xHDAaBgNVBAMME3VzLWVhc3QtMl82QVd6TjNHWUUwHhcNMjMwOTI5MTYyMTEzWhcNMzMwOTI5MDIzMzEzWjAeMRwwGgYDVQQDDBN1cy1lYXN0LTJfNkFXek4zR1lFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvh7GcMsLxNezjDXPk/NnauaqQ+npwtW55JPHzvd41R2iK9ZEZ2yyyf7iammMt7bxeqFAN+8lBcfgM958OL9BJrUjVYMRWTlgsxFiXVvENKo9e03xiH/Hxx72Qcx9jzgTEBYvfqa29q80oHcycWTmSjmMRw2zP9vfCmkcXcEx+VA8dOISG4S+3ZIsKkd6VG8Fv9pinBzCkEeO/eI+9KhtD+yOTPOB8PFURKGPJfXbJ2qH0DohefmaGuV1qYIclfYp2wRZJhWUQf23XpbvYa6GfdUkIxwWv0kR2cYnAFurp6bbIImoOozc7OXoGCRWQGxGEIw4+rNGoNJuKHEm/L9cqwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBm8mL1mLdqDmUjiF6C/8d2Rg2yg/hwH4EBjnxOlAnmoATZH3BFDXimx273ISvuF9L5LOy+7AABaFqRsar4Ig42FwNUbdzb9fFUIQty/RLRHeihFSrw36OoCV1pTao6ZVppR1BO7BKKsXLI29N3PXEaWOmSJ58Qonq/lIjdfCgu9X0jDnTGTcn6AGqQO0K1hfHuE/NT4x4057R87XklY5irhwZjVDVODhlGsJ/1U0PMlJLo42sPYdV2MzWlA9P5R+E3t8klCSmYT4uXkplsc+/aAhvsKhkPonuDWrMC4ep3b7NdKniZzS9ACT8sXmau7iOREIhueqiKf9VXzuzrCBMk</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location=""/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trajector.auth.us-east-2.amazoncognito.com/saml2/idpresponse" index="1"/>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en-US">Trajector</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en-US">Trajector</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en-US">https://trajector.com</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+        <md:GivenName>John Bennett</md:GivenName>
+        <md:EmailAddress>john.bennett@trajectorservices.com</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
